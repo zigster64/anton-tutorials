@@ -1,0 +1,15 @@
+.{
+    .name = "zzz",
+    .version = "0.0.0",
+    .dependencies = .{
+        .zzz = .{
+            .url = "git+https://github.com/mookums/zzz?ref=arena-clear-fix#266e8448f66ec739ff6775761c3a545257bf1399",
+            .hash = "1220df7dacbd6dd3735e7da86ab10caff87d1061ad85cb7bb3152210a3119a240780",
+        },
+    },
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "src",
+    },
+}
